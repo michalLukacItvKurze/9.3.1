@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="sk">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleadd.css">
+    <title>PRIDAŤ RECENZIU</title>
+</head>
+<body>
+    <h1>TOP FILMY</h1>
+    <div class="nav">
+        <ul>
+            <li><a href="index.html" id="domov">Domov</a></li>
+            <li><a href="rebricek.html" id="reb">Rebríček  top filmov</a></li>
+            <li><a href="add-review.html" id="rece">Pridať recenziu</a></li>
+            <li><a href="her.html" id="zoznam">zoznam hercov</a></li>
+        </ul>
+    </div>
+    <form action="#" method="get" id="formular" autocomplete="off">
+        <div class="formHeader">recenzia filmu</div>
+        
+        <input type="text" name="nazov filmu" id="nazovFilmu" placeholder="nazov filmu" required>
+        
+        <input type="text" name="meno/nick" id="meno" placeholder="meno/nick">
+        
+        <input type="email" name="email" id="email" placeholder="email" required>
+        
+        <input type="date" name="datum" id="datum" placeholder="dátum, kedy bol film naposledny pozeraný">
+        
+        <div class="hodnotenieFilmu">
+            <label for="hodnotenie" id="hodnotenieNadpis">Hodnotenie filmu</label>
+            <input type="range" name="hodnotenie" id="hodnotenie" min="0" max="100" step="10">
+        </div>
+        
+        <input type="textarea" name="textarea" id="textarea" placeholder="textové pole">
+
+        <div class="zanerBlok">
+            <label>Žaner filmu : </label>
+            <input type="radio" class="zaner" name="zaner" value="drama">
+            <label>drama</label>
+            <input type="radio" class="zaner" name="zaner" value="komedia">
+            <label>komedia</label>
+            <input type="radio" class="zaner" name="zaner" value="horor">
+            <label>horor</label>
+            <input type="radio" class="zaner" name="zaner" value="akcny">
+            <label>akcny</label>
+        </div>
+        
+
+        <input type="submit" value="Pridať recenziu" id="submit">
+    </form>
+    <div class="logo">
+        <div class="redFrame"></div>
+        <div class="greenFrame"></div>
+        <div class="orangeFrame"></div>
+        <div class="blueFrame"></div>
+    </div>
+    
+</body>
+</html>

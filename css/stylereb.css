@@ -1,0 +1,133 @@
+
+*{
+    
+    max-width: 1024px;
+    margin: 0 auto; 
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1 {
+    font-size: 125px;
+    padding: 150px 0;
+}
+
+ul{
+    list-style-type: none;
+}
+li{
+    float: left;
+    padding: 1%;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+li a:hover{
+    color: rgb(255, 10, 51);
+}
+#reb{
+    color: rgb(255, 10, 51);
+}
+.contain {
+    clear: both;
+    text-align: justify;
+    line-height: 30px;
+    font-size: 19px;
+    padding: 70px 0;
+}
+.afterTable p{
+    
+    text-align: justify;
+    line-height: 30px;
+    font-size: 20px;
+}
+.afterTable h1 {
+    font-size: 125px;
+    padding: 100px 0;
+}
+
+
+body {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    }
+
+
+h2{
+    padding: 50px 0 50px;
+    font-size: 30px;
+    text-transform: uppercase;
+    }
+
+a {
+    text-decoration: none;
+    }
+.content-table{
+    padding-top: 100px;
+}
+table {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    
+}
+thead {
+    background-color: rgb(126, 126, 126);
+    border-radius: 15px;
+    text-transform: uppercase;
+    }
+
+th,tr,td{
+    
+    padding: 20px;
+    }
+td:first-child {
+    text-align: right;
+    }
+.steam {
+    background-color: rgb(197, 197, 197);
+    }
+img{
+    max-width: 40%;
+    float: left;
+    padding: 0 5%;
+    }
+
+.afterTable {
+    padding-bottom: 30Px;
+    }
+.hodnotenieG{
+    color: rgb(0, 255, 0);
+    }
+.hodnotenieR{
+    color: rgb(255, 10, 51);
+    }
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    position: absolute;
+    background-color: white;
+    width: 10%;
+    height: 200px;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.tooltip .tooltiptext img {
+    height: 80px;
+    padding: 10px 30%;
+    
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    }
+
+.tooltip .tooltiptext h4 {
+    padding: 20px;
+}
+
